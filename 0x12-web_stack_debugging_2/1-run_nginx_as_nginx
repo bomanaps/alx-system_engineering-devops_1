@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# fix container:: task 2
+# fix container:: task two
 pkill -f apache2
 chmod 644 /etc/nginx/nginx.conf
 sed -i "1i user nginx;" /etc/nginx/nginx.conf
